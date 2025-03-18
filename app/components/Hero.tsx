@@ -6,6 +6,8 @@ import { TiLocationArrow } from "react-icons/ti";
 import { useRef, useState } from "react";
 import Button from "./Button";
 import Loader from "./Loader";
+import Link from "next/link";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
