@@ -142,12 +142,14 @@ const Hero = () => {
               Step Into the Future of <br /> Web Creation
             </p>
 
-            <Button
-              id="watch-trailer"
-              title="Work With Me"
-              rightIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
-            />
+            <Link href={"https://www.fiverr.com/s/6Y295eB"}>
+              <Button
+                id="watch-trailer"
+                title="Work With Me"
+                rightIcon={<TiLocationArrow />}
+                containerClass="bg-yellow-300 flex-center gap-1"
+              />
+            </Link>
           </div>
         </div>
       </div>
