@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import AnimatedTitle from "./AnimatedText";
 
 const ImageClipBox = ({ src, clipClass }: {src: string, clipClass: string}) => (
@@ -39,13 +40,13 @@ const Contact = () => {
             title="let&#39;s b<b>u</b>ild the <br /> new era of <br /> <b>We</b>b t<b>o</b>gether"
             containerClass="special-font !text-3xl md:!text-[4.3rem] w-full font-zentry !text-5xl !font-black !leading-[.9] mix-blend-difference"
           />
-          <a
+     <Link
             className="ring-fuchsia-50 bg-violet-50 py-3 px-8 mt-10 text-black"
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=shaheendeveloper8@gmail.com"
+            href="https://www.fiverr.com/s/6Y295eB"
             target="_blank"
           >
             Contact Me
-          </a>
+          </Link>
         </div>
       </div>
     </section>
