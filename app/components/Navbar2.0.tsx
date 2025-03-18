@@ -193,9 +193,9 @@ export default function Layout() {
                 <p className="text-[11px] leading-none text-white font-[500]">
                   YOUTUBE
                 </p>
-                <p className="text-[11px] leading-none text-white font-[500]">
+                <Link href={"https://www.fiverr.com/s/6Y295eB"} className="text-[11px] leading-none text-white font-[500]">
                   FIVERR
-                </p>
+                </Link>
               </div>
             </div>
           </div>
