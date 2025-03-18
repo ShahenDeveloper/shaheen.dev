@@ -3,6 +3,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { CustomEase } from "gsap/all";
 import { useState } from "react";
+import Link from "next/link";
 
 gsap.registerPlugin(CustomEase);
 CustomEase.create(
